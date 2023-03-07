@@ -1,5 +1,5 @@
 package com.springboot.myfirstwebapp.Controller;
-
+//this is a controller
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -17,5 +17,8 @@ public class SayHelloController {
 		return "login";
 	}
 	
-	
+	@RequestMapping("/saylogin") 
+	public String sayHellohtml() {
+		return "login";
+	}
 }
