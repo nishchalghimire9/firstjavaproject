@@ -17,7 +17,7 @@ public class SayHelloController {
 		return "login";
 	}
 	
-	@RequestMapping("/saylogin") 
+	@RequestMapping("/sa") 
 	public String sayHellohtml() {
 		return "login";
 	}
